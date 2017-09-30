@@ -53,10 +53,11 @@ class SideBarContainer extends Component {
                 <Layout>
                     <Header style={{ background: '#333', padding: 0 }} />
                     <Content style={{ margin: '0 16px' }}>
-                        <Breadcrumb style={{ margin: '12px 0' }}>
-                            <Breadcrumb.Item>User</Breadcrumb.Item>
-                            <Breadcrumb.Item>Bill</Breadcrumb.Item>
-                        </Breadcrumb>
+                        {/* <Breadcrumb.Item key={url}>
+                            <Link to={url}>
+                                {breadcrumbNameMap[url]}
+                            </Link>
+                        </Breadcrumb.Item> */}
                         <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
                             Bill is a cat.
                         </div>
